@@ -1,0 +1,13 @@
+# Cloudflare Pages / Netlify header rules.
+#
+# Ignored by GitHub Pages, which cannot set custom headers — that is precisely
+# why this file exists. Apple documents that apple-app-site-association must be
+# served as application/json, but it has no file extension, so GitHub Pages
+# serves it as application/octet-stream (verified). Deploying this same repo to
+# Cloudflare Pages or Netlify applies the rule below and fixes it.
+
+/.well-known/apple-app-site-association
+  Content-Type: application/json
+
+/.well-known/assetlinks.json
+  Content-Type: application/json
