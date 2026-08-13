@@ -1,0 +1,34 @@
+[
+  {
+    "relation": ["delegate_permission/common.get_login_creds"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "de.gip.kidicap",
+      "sha256_cert_fingerprints": [
+        "REPLACE_WITH_PLAY_APP_SIGNING_SHA256_PROD"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.get_login_creds"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "de.gip.kidicap.qa",
+      "sha256_cert_fingerprints": [
+        "REPLACE_WITH_PLAY_APP_SIGNING_SHA256_QA",
+        "25:D0:7D:80:B9:EF:56:4D:4D:FE:2C:D3:33:87:DC:8E:AF:AE:7D:2B:2F:00:B3:D2:95:7E:37:61:8A:A3:A1:F2"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.get_login_creds"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "de.gip.kidicap.sta",
+      "sha256_cert_fingerprints": [
+        "REPLACE_WITH_PLAY_APP_SIGNING_SHA256_STA",
+        "25:D0:7D:80:B9:EF:56:4D:4D:FE:2C:D3:33:87:DC:8E:AF:AE:7D:2B:2F:00:B3:D2:95:7E:37:61:8A:A3:A1:F2"
+      ]
+    }
+  }
+]
